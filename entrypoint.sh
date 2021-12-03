@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #download wwi db
-wget -P /var/opt/mssql/data/ https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v2.0/WideWorldImporters-Full.bak
+wget -P /var/opt/mssql/data/ https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak
 chmod +x /var/opt/mssql/data/WideWorldImporters-Full.bak
 
 # Run init-script with long timeout - and make it run in the background with "&"
