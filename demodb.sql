@@ -1,7 +1,7 @@
 /**********************************************************/
 -- Author: Marco Ortiz
 -- Date: 09/14/2021
--- Script: demodb.sql - hey!!
+-- Script: demodb.sql
 --      creates datadabse: demodb
 --      creates table: es_table
 /**********************************************************/
