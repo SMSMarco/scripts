@@ -15,7 +15,7 @@ touch /var/opt/mssql/data/WideWorldImporters_UserData.ndf
 touch /var/opt/mssql/data/WideWorldImporters.ldf
 
 # restore demodb
-/opt/mssql-tools/bin/sqlcmd -S localhost -l 60 -U SA -P ${MSSQL_SA_PASSWORD} -i /opt/mssql-scripts/demodb.sql &
+#/opt/mssql-tools/bin/sqlcmd -S localhost -l 60 -U SA -P ${MSSQL_SA_PASSWORD} -i /opt/mssql-scripts/demodb.sql &
 
 # Start SQL server
 /opt/mssql/bin/sqlservr
